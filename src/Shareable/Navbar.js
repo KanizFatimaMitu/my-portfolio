@@ -62,13 +62,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <label tabIndex={0} className="btn btn-ghost btn-circle avatar" >
-                        <div className="w-10 rounded-full">
-                            {/* <img  src="/images/stock/photo-1534528741775-53994a69daeb.jpg" alt=''/> */}
-                            <Dialog></Dialog>
-                        </div>
-                    </label>
-                
+                    <Dialog></Dialog>
                 </div>
             </div>
         </div>
