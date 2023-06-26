@@ -1,13 +1,17 @@
 import './App.css';
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
+import Navbar from './Shareable/Navbar';
+import Footer from './Shareable/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <button className="btn btn-outline">Default</button>
-      <button className="btn btn-outline btn-primary">Primary</button>
-      <button className="btn btn-outline btn-secondary">Secondary</button>
-      <button className="btn btn-outline btn-accent">Accent</button>
-    </div>
+    <>
+      <Navbar></Navbar>
+      <Home></Home>
+      <Projects></Projects>
+      <Footer></Footer>
+    </>
   );
 }
 
