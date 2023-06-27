@@ -1,5 +1,6 @@
 import React from 'react';
 import kaniz from '../Assests/kaniz.jpg'
+import { Link } from 'react-router-dom';
 
 const Dialog = () => {
     return (
@@ -20,6 +21,7 @@ const Dialog = () => {
                     <img src={kaniz} alt='' />
                     <div className="modal-action">
                         {/* if there is a button in form, it will close the modal */}
+                        <button className="btn"><Link to='/resume'>Resume</Link></button>
                         <button className="btn"><a target="_blank" href="https://www.linkedin.com/in/kaniz-mitu/">linkedin</a></button>
                         <button className="btn"><a target="_blank" href="https://www.linkedin.com/in/kaniz-mitu/">Github</a></button>
                     </div>
