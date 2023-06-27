@@ -1,16 +1,19 @@
 import './App.css';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
-import Navbar from './Shareable/Navbar';
-import Footer from './Shareable/Footer';
+import About from './Pages/About';
+import { Route, Routes } from 'react-router-dom';
+import Resume from './Pages/Resume';
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
-      <Home></Home>
-      <Projects></Projects>
-      <Footer></Footer>
+    <Routes>
+      <Route path='/' element={<Home></Home>}></Route>
+      <Route path='/project' element={<Projects></Projects>}></Route>
+      <Route path='/about' element={<About></About>}></Route>
+      <Route path='/resume' element={<Resume></Resume>}></Route>
+    </Routes>
     </>
   );
 }
