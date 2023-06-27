@@ -6,14 +6,19 @@ import { Route, Routes } from 'react-router-dom';
 import Resume from './Pages/Resume';
 
 function App() {
+
+  <script>
+    AOS.init();
+  </script>
+
   return (
     <>
-    <Routes>
-      <Route path='/' element={<Home></Home>}></Route>
-      <Route path='/project' element={<Projects></Projects>}></Route>
-      <Route path='/about' element={<About></About>}></Route>
-      <Route path='/resume' element={<Resume></Resume>}></Route>
-    </Routes>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/project' element={<Projects></Projects>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+        <Route path='/resume' element={<Resume></Resume>}></Route>
+      </Routes>
     </>
   );
 }
