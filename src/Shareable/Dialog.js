@@ -17,7 +17,7 @@ const Dialog = () => {
                 <form method="dialog" className="modal-box">
                 <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     <h3 className="font-bold text-lg">Assalamualaikum !!</h3>
-                    <p className="py-2">"My name is "Kaniz Fatima".I am a MERN stack web developer. I love to use my creativity and make something new. That's why I love to play with code. Over the last year, I gather knowledge in various parts of web development by myself. My ultimate goal is to become an awesome full-stack web developer who can make beautiful UIs and also can handle the back-end smoothly."</p>
+                    <p className="py-2">"My name is "Kaniz Fatima".I am a MERN stack web developer. I love to use my creativity and make something new. That's why I love to play with code. Over the last year, I gather knowledge in various parts of web development by myself. My ultimate goal is to become an awesome full-stack web developer who can develop beautiful UIs and also can handle the back-end smoothly."</p>
                     <img src={kaniz} alt='' />
                     <div className="modal-action">
                         {/* if there is a button in form, it will close the modal */}
