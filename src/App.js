@@ -4,12 +4,15 @@ import Projects from './Pages/Projects';
 import About from './Pages/About';
 import { Route, Routes } from 'react-router-dom';
 import Resume from './Pages/Resume';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
 
-  <script>
+  useEffect(() => {
     AOS.init();
-  </script>
+  }, [])
 
   return (
     <>
