@@ -3,7 +3,7 @@ import Navbar from '../Shareable/Navbar';
 import Footer from '../Shareable/Footer';
 import Intro from '../Components/Intro';
 import Skills from '../Components/Skills';
-import ProjectCard from '../Components/ProjectCard';
+import ProjectCard from '../Components/Carousel';
 
 const Home = () => {
     return (
