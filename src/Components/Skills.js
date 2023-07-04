@@ -8,7 +8,7 @@ const Skills = () => {
             <button className="btn btn-active btn-primary">JavaScript</button>
             <button className="btn btn-active btn-primary">React</button>
             <button className="btn btn-active btn-primary">Express.js</button>
-            <button className="btn btn-active btn-primary">Mongo</button>
+            <button className="btn btn-active btn-primary">MongoDB</button>
         </div>
     );
 };
