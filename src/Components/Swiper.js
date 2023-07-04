@@ -17,6 +17,10 @@ export default function App() {
     <>
       <Swiper
         effect={"coverflow"}
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"auto"}

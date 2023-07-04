@@ -12,8 +12,8 @@ const Home = () => {
             <Navbar></Navbar>
             <Intro></Intro>
             <Skills></Skills>
-            <ProjectCard></ProjectCard>
             <Swiper></Swiper>
+            <ProjectCard></ProjectCard>
             <Footer></Footer>
         </div>
     );

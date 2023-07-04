@@ -16,8 +16,8 @@ const Carousel = () => {
     };
     return (
 
-        <div>
-            <h2> Single Item</h2>
+        <div >
+            <h2 className='my-12 font-bold text-xl text-center'> Single Item</h2>
             <Slider {...settings}>
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">

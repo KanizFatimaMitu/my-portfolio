@@ -13,7 +13,7 @@ const Intro = () => {
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
                         <h1 className="text-5xl font-bold">Hello there</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p className="py-6">"My name is "Kaniz Fatima".I am a MERN stack web developer. I love to use my creativity and make something new. That's why I love to play with code. Over the last year, I gather knowledge in various parts of web development by myself. My ultimate goal is to become an awesome full-stack web developer who can develop beautiful UIs and also can handle the back-end smoothly."</p>
                         <button className="btn btn-primary">Get Started</button>
                     </div>
                 </div>
