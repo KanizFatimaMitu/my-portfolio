@@ -11,6 +11,15 @@ const ContactMe = () => {
             text
         }
         console.log(data)
+        fetch('http://localhost:5000/text', {
+            method: 'POST',
+            body: JSON.stringify({ data }),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+            },
+        })
+            .then((response) => response.json())
+            .then((json) => console.log(json));
     }
 
     return (
@@ -28,26 +37,26 @@ const ContactMe = () => {
                                     <span className="label-text">Email</span>
                                 </label>
                                 <input
-                                 type="text" 
-                                 placeholder="email" 
-                                 className="input input-bordered" 
-                                 onChange={(e)=> setEmail(e.target.value)}/>
+                                    type="text"
+                                    placeholder="email"
+                                    className="input input-bordered"
+                                    onChange={(e) => setEmail(e.target.value)} />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">text</span>
                                 </label>
                                 {/* <input type="text" placeholder="Type here...." className="textarea" /> */}
-                                <textarea 
-                                className="textarea"
-                                 placeholder="Type here...."
-                                 onChange={(e)=> setText(e.target.value)}
-                                 ></textarea>
+                                <textarea
+                                    className="textarea"
+                                    placeholder="Type here...."
+                                    onChange={(e) => setText(e.target.value)}
+                                ></textarea>
 
                             </div>
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary"
-                                type ="submit"
+                                    type="submit"
                                 >Send</button>
                             </div>
                         </form>
