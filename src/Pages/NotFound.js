@@ -4,8 +4,7 @@ import  pic from '../Assests/404.jpg'
 const NotFound = () => {
     return (
         <div>
-            <h1>404</h1>
-            <img src={pic} alt='picture' />
+            <img className='w-auto mx-auto p-12 h-[82vh]' src={pic} alt='' />
         </div>
     );
 };
