@@ -8,12 +8,12 @@ import ContactMe from '../Components/ContactMe';
 const Home = () => {
     return (
         <div>
-            
+
             <Intro></Intro>
             <Skills></Skills>
             <Swiper></Swiper>
             <ProjectCard></ProjectCard>
-<ContactMe></ContactMe>
+            <ContactMe></ContactMe>
         </div>
     );
 };

@@ -36,18 +36,24 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <a target="_blank" href="https://www.linkedin.com/in/kaniz-mitu/">
+          <a target="_blank" href="https://dream-home-1d288.web.app/">
             <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
+          <a target="_blank" href="https://coffeeshop-72f50.web.app/">
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="" />
+          <a target="_blank" href="https://code-with-me-53590.web.app/">
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="" />
+          <a target="_blank" href="https://6465075553f1df16016b36aa--tangerine-basbousa-065a39.netlify.app/">
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="" />
