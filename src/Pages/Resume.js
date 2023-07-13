@@ -12,7 +12,7 @@ const Resume = () => {
 
     return (
         <div>
-            <h1>here will be my Resume</h1>
+            <h1>Resume</h1>
             <button className="btn"><Link to='/'>Back to portfolio</Link></button>
             <h1>
                 total data : {data.length}
